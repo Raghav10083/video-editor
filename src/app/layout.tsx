@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { ThemeProvider } from "../context/ThemeContext";
+import { ParticleCanvas } from "../components/ParticleCanvas";
 
 export const metadata: Metadata = {
-  title: "CineFlux 3D | Dynamic Video Editing Studio",
-  description: "CineFlux 3D Studio - Dynamic browser-based video editing web app with interactive 3D WebGL elements, multi-track timeline, real-time video filters, and high-speed export engine.",
+  title: "CineCraft Studio | Master Video Editor & Colorist Portfolio",
+  description: "CineCraft Studio — Premier Video Editing & 4K Colorist Portfolio. Features commercial showreels, before/after color grading, instant scope calculator, and 3D studio integration.",
 };
 
 export default function RootLayout({
@@ -13,8 +15,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
-      <body className="h-full bg-[#07080d] text-[#f3f4f6] font-sans antialiased overflow-hidden">
-        {children}
+      <body className="h-full bg-[var(--bg-dark)] text-[#f3f4f6] font-sans antialiased overflow-hidden transition-colors duration-700">
+        <ThemeProvider>
+          <ParticleCanvas />
+          <div className="relative z-10 h-full flex flex-col">
+            {children}
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );
