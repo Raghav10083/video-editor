@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
           </div>
           <div>
             <span className={`font-extrabold text-sm tracking-wider bg-gradient-to-r ${config.textHighlight} bg-clip-text text-transparent`}>
-              CINECRAFT
+              RAGHAV PORTFOLIO (TXNB)
             </span>
             <p className="text-[10px] text-gray-500 font-mono">
               Content Strategist • Content Writer • Video Editor
@@ -41,7 +41,7 @@ export const Footer: React.FC = () => {
 
         {/* Copyright */}
         <div className="text-xs text-gray-500 font-mono">
-          © {new Date().getFullYear()} CineCraft Portfolio. All rights reserved.
+          © {new Date().getFullYear()} Raghav Portfolio (TXNB). All rights reserved.
         </div>
 
       </div>

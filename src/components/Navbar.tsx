@@ -32,7 +32,7 @@ export const Navbar: React.FC = () => {
         </div>
         <div className="flex flex-col">
           <span className={`font-extrabold text-base tracking-wider bg-gradient-to-r ${config.textHighlight} bg-clip-text text-transparent leading-none`}>
-            CINECRAFT
+            RAGHAV PORTFOLIO (TXNB)
           </span>
           <span className="text-[10px] font-mono tracking-widest uppercase" style={{ color: config.accentPrimary }}>
             STRATEGY • WRITING • EDITING

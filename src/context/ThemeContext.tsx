@@ -20,7 +20,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const [theme, setThemeState] = useState<ThemeMode>('cyberpunk');
 
   useEffect(() => {
-    const saved = localStorage.getItem('cinecraft_theme') as ThemeMode;
+    const saved = localStorage.getItem('raghav_portfolio_theme') as ThemeMode;
     if (saved && THEME_CONFIGS[saved]) {
       setThemeState(saved);
     }
@@ -28,7 +28,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   const setTheme = (mode: ThemeMode) => {
     setThemeState(mode);
-    localStorage.setItem('cinecraft_theme', mode);
+    localStorage.setItem('raghav_portfolio_theme', mode);
   };
 
   const config = THEME_CONFIGS[theme] || THEME_CONFIGS.cyberpunk;
