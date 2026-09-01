@@ -41,16 +41,20 @@ export const Navbar: React.FC = () => {
       </div>
 
       {/* Navigation Core Skills */}
-      <nav className="hidden md:flex items-center space-x-6 text-xs font-semibold tracking-wide text-gray-300">
-        <button onClick={() => scrollToSection('skills-overview')} className="hover:text-white transition flex items-center space-x-1.5">
+      <nav className="hidden md:flex items-center space-x-5 text-xs font-semibold tracking-wide text-gray-300">
+        <button onClick={() => scrollToSection('skills-overview')} className="hover:text-white transition">
           <span>Content Strategist</span>
         </button>
         <span className="text-gray-600">•</span>
-        <button onClick={() => scrollToSection('skills-overview')} className="hover:text-white transition flex items-center space-x-1.5">
+        <button onClick={() => scrollToSection('skills-overview')} className="hover:text-white transition">
           <span>Content Writer</span>
         </button>
         <span className="text-gray-600">•</span>
-        <button onClick={() => scrollToSection('projects-gallery')} className="hover:text-white transition flex items-center space-x-1.5">
+        <button onClick={() => scrollToSection('food-scientist')} className="hover:text-white transition text-amber-400">
+          <span>Food Scientist 🔬</span>
+        </button>
+        <span className="text-gray-600">•</span>
+        <button onClick={() => scrollToSection('projects-gallery')} className="hover:text-white transition">
           <span>Video Editor</span>
         </button>
       </nav>

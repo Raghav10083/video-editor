@@ -3,6 +3,7 @@
 import React from 'react';
 import { ShowreelHero } from './ShowreelHero';
 import { SkillsOverview } from './SkillsOverview';
+import { FoodScientistSection } from './FoodScientistSection';
 import { ProjectGallery } from './ProjectGallery';
 import { Footer } from './Footer';
 
@@ -23,6 +24,9 @@ export const PortfolioView: React.FC = () => {
 
       {/* Core Skills: Content Strategist, Content Writer, Video Editor */}
       <SkillsOverview />
+
+      {/* Food Scientist Collaboration Section */}
+      <FoodScientistSection />
 
       {/* Featured Projects Gallery */}
       <ProjectGallery />
