@@ -38,9 +38,9 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '150K+',
       retentionRate: '68% (Long-Form)'
     },
-    description: '16:9 landscape long-form documentary episode featuring full concept research, script writing, storytelling structure, and retention editing in Adobe Premiere Pro.',
+    description: '16:9 landscape long-form documentary episode featuring full concept research, scriptwriting, storytelling structure, and retention editing in Adobe Premiere Pro.',
     keyHighlights: [
-      'Long-form script research & 16:9 story structure',
+      'Long-form scriptwriting & 16:9 story structure',
       'Chapter-based narrative concept planning',
       'Rhythmic long-form editing & sound design in Adobe Premiere Pro'
     ]
@@ -65,7 +65,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     keyHighlights: [
       'Landscape 16:9 layout & storyboard planning',
       'Long-form scriptwriting & voiceover pacing',
-      'Dynamic visual B-roll editing in Adobe Premiere Pro'
+      'Dynamic visual editing in Adobe Premiere Pro'
     ]
   },
   {
@@ -108,7 +108,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '28.4M',
       retentionRate: '96%'
     },
-    description: 'High-impact 9:16 vertical cinematic edit structured with hook strategy and rhythmic pacing in Adobe Premiere Pro.',
+    description: 'High-impact 9:16 vertical cinematic edit structured with hook strategy, scriptwriting structure, and rhythmic pacing in Adobe Premiere Pro.',
     keyHighlights: [
       'Content strategy & opening visual hook alignment',
       'Frame-accurate rhythmic cutting to audio beats in Adobe Premiere Pro',
@@ -131,9 +131,9 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '16.8M',
       retentionRate: '93%'
     },
-    description: 'Atmospheric vertical cinematic video edit with tailored script storytelling structure in Adobe Premiere Pro.',
+    description: 'Atmospheric vertical cinematic video edit with cinematic scriptwriting flow in Adobe Premiere Pro.',
     keyHighlights: [
-      'Narrative arc script structure & flow',
+      'Narrative scriptwriting flow & structure',
       'Pacing optimization to prevent viewer drop-off in Adobe Premiere Pro',
       'Sound FX accent design'
     ]
@@ -177,11 +177,11 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '11.5M',
       retentionRate: '92%'
     },
-    description: 'Conversational talking head edit with script restructuring, pause removal, and subtle zooms in Adobe Premiere Pro.',
+    description: 'Conversational talking head edit with pause removal and subtle zooms in Adobe Premiere Pro.',
     keyHighlights: [
-      'Content writing & script restructuring for clarity',
+      'Content structure & dialogue alignment',
       'Jump-cut editing removing filler words & pauses in Adobe Premiere Pro',
-      'B-roll insertion and audio leveling'
+      'Visual pacing and audio leveling'
     ]
   },
   {
@@ -200,10 +200,10 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '9.3M',
       retentionRate: '90%'
     },
-    description: 'Engaging talking head edit designed with strategic camera scale zooms for emphasis in Adobe Premiere Pro.',
+    description: 'Engaging talking head edit designed with strategic camera zoom framing for emphasis in Adobe Premiere Pro.',
     keyHighlights: [
       'Content strategy mapping for viewer interest',
-      'Multi-angle scale zooms in Adobe Premiere Pro',
+      'Dynamic zoom framing in Adobe Premiere Pro',
       'Background audio noise reduction'
     ]
   },
@@ -225,7 +225,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     },
     description: 'High-converting UGC reel with opening hook copywriting and rapid match-cuts in Adobe Premiere Pro.',
     keyHighlights: [
-      'Hook script writing & angle selection',
+      'Hook angle selection & storytelling',
       'Fast-paced match-cut editing in Adobe Premiere Pro',
       'Custom Foley sound effects'
     ]
@@ -248,7 +248,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     },
     description: 'Problem & solution UGC storytelling edit with split-screen structure in Adobe Premiere Pro.',
     keyHighlights: [
-      'Problem/solution script structure',
+      'Problem/solution content structure',
       'Split-screen video editing in Adobe Premiere Pro',
       'Voiceover audio equalization'
     ]
@@ -294,7 +294,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     },
     description: 'Fast-paced social ad edit crafted for high click-through rates in Adobe Premiere Pro.',
     keyHighlights: [
-      'Ad script hook copywriting',
+      'Ad hook copywriting & pacing',
       'Pattern interrupt video editing in Adobe Premiere Pro',
       'Riser sound effects'
     ]
