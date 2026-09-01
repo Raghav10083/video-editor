@@ -70,7 +70,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   },
   {
     id: 'proj_longform_3',
-    title: 'Long-Form Script & Landscape Edit #3',
+    title: 'Blooper Explicit',
     client: 'TXnbStudios YouTube',
     category: 'longform',
     aspect: '16:9',
@@ -84,11 +84,11 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '110K+',
       retentionRate: '66% (Long-Form)'
     },
-    description: '16:9 landscape breakdown episode crafted with audience retention strategy, narrative script flow, and audio layers in Adobe Premiere Pro.',
+    description: '16:9 landscape Blooper Explicit cut featuring behind-the-scenes outtakes, unedited moments, and fast-paced comedic editing in Adobe Premiere Pro.',
     keyHighlights: [
-      'Audience retention & drop-off prevention strategy',
-      '16:9 wide composition & visual rhythm',
-      'Multi-track audio mix & Foley sound accents in Adobe Premiere Pro'
+      'Blooper & behind-the-scenes outtakes compilation',
+      'Comedic timing & audio sound FX drops in Adobe Premiere Pro',
+      'High retention 16:9 narrative cut'
     ]
   },
   {
