@@ -1,183 +1,103 @@
 @import "tailwindcss";
 
 :root {
-  --background: #090909;
-  --foreground: #EDEDED;
-  --gold: #C8A34A;
-  --gold-muted: rgba(200, 163, 74, 0.2);
-  --gold-glow: rgba(200, 163, 74, 0.05);
-  
-  --font-serif: var(--font-cinzel), Georgia, serif;
-  --font-sans: var(--font-plus-jakarta), system-ui, sans-serif;
+  --bg-dark: #07080c;
+  --bg-panel: #0d0f19;
+  --bg-card: #131625;
+  --border-color: rgba(255, 255, 255, 0.08);
+  --accent-purple: #8b5cf6;
+  --accent-cyan: #06b6d4;
+  --accent-pink: #ec4899;
+  --accent-emerald: #10b981;
+  --accent-gold: #f59e0b;
 }
 
-@theme {
-  --color-gold: var(--gold);
-  --color-gold-muted: var(--gold-muted);
-  --color-gold-glow: var(--gold-glow);
-  --color-bg-dark: #090909;
-  --color-bg-rich: #030303;
-  --color-border-gold: rgba(200, 163, 74, 0.15);
-  
-  --font-serif: var(--font-serif);
-  --font-sans: var(--font-sans);
+body {
+  background-color: var(--bg-dark);
+  color: #f3f4f6;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  overflow-x: hidden;
+  user-select: none;
 }
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
+  height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #030303;
+  background: #07080c;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1C1C1C;
-  border-radius: 3px;
+  background: rgba(139, 92, 246, 0.3);
+  border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #C8A34A;
+  background: rgba(139, 92, 246, 0.7);
 }
 
-/* Typography Upgrades - High Priority Editorial Style */
-body {
-  background-color: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans);
-  font-size: 1.15rem; /* ~18.4px for premium readability */
-  line-height: 1.85;  /* Editorial line-height */
-  letter-spacing: -0.01em;
-}
-
-h1, h2, h3, h4, h5, h6, .font-serif {
-  font-family: var(--font-serif);
-  letter-spacing: -0.02em;
-}
-
-p {
-  margin-bottom: 1.75rem; /* Spacious paragraph gaps */
-}
-
-/* Elevated Section Spacing (20-30% Increase) */
-.section-spacious {
-  padding-top: 10rem;    /* py-40 (~160px) */
-  padding-bottom: 10rem;
-}
-
-/* Premium Card & Interactive Utilities */
-.glass {
-  background: rgba(14, 14, 14, 0.65);
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(13, 15, 25, 0.75);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.glass-gold {
-  background: rgba(15, 13, 9, 0.75);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(200, 163, 74, 0.12);
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-.gold-glow-radial {
-  background: radial-gradient(circle at center, rgba(200, 163, 74, 0.15) 0%, transparent 60%);
+/* Neon Glows */
+.glow-purple {
+  box-shadow: 0 0 25px rgba(139, 92, 246, 0.35);
+}
+.glow-cyan {
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.35);
+}
+.glow-pink {
+  box-shadow: 0 0 25px rgba(236, 72, 153, 0.35);
 }
 
-.gold-text-gradient {
-  background: linear-gradient(135deg, #FFF 30%, #C8A34A 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+/* Cyber Grid Background */
+.cyber-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
 }
 
-/* Noise overlay */
-.noise-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  content: "";
-  opacity: 0.025;
-  pointer-events: none;
-  z-index: 9999;
-  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+/* Custom Range Input Styling */
+input[type="range"] {
+  accent-color: #8b5cf6;
 }
 
-/* Smooth marquee */
-@keyframes marquee {
-  0% { transform: translateX(0%); }
-  100% { transform: translateX(-50%); }
+/* Animations */
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.9; }
 }
 
-.animate-marquee {
-  display: flex;
-  width: max-content;
-  animation: marquee 30s linear infinite;
+.animate-pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
 }
 
-.animate-marquee:hover {
-  animation-play-state: paused;
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
 }
 
-/* Path drawing animations for SVG outlines */
-@keyframes pathDraw {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-.animate-path-draw {
-  animation: pathDraw 4s ease-out forwards;
-}
-
-/* 3D Book Open Styles */
-.book-container {
-  perspective: 1000px;
-}
-
-.book {
-  width: 130px;
-  height: 190px;
+.vhs-scanline {
   position: relative;
-  transform-style: preserve-3d;
-  transition: transform 0.5s ease;
+  overflow: hidden;
 }
-
-.book:hover {
-  transform: rotateY(-30deg);
-}
-
-.book-cover {
+.vhs-scanline::after {
+  content: " ";
   position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #0E0E0E;
-  border: 1px solid rgba(200, 163, 74, 0.2);
-  border-radius: 0 4px 4px 0;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-  transform-origin: left center;
-  transition: transform 0.5s ease;
-  z-index: 2;
-}
-
-.book:hover .book-cover {
-  transform: rotateY(-130deg);
-}
-
-.book-pages {
-  position: absolute;
-  width: 95%;
-  height: 96%;
-  top: 2%;
-  left: 2%;
-  background: #EDEDED;
-  border-radius: 0 2px 2px 0;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-  z-index: 1;
-}
-
-/* Keyframes for SVG dashed flow */
-@keyframes dash {
-  to {
-    stroke-dashoffset: -40;
-  }
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  background-size: 100% 4px, 6px 100%;
+  pointer-events: none;
 }
