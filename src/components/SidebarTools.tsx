@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { 
   FiVideo, FiBox, FiType, FiSliders, FiMusic, FiUploadCloud, 
-  FiPlus, FiCheck, FiZap, FiSparkles, FiEye, FiVolume2, FiDisc
+  FiPlus, FiCheck, FiZap, FiStar, FiEye, FiVolume2, FiDisc
 } from 'react-icons/fi';
 import { ProjectState, ThreeObject3D, TimelineClip } from '../types/editor';
 
@@ -227,7 +227,7 @@ export const SidebarTools: React.FC<SidebarToolsProps> = ({
           <div className="space-y-4">
             <div>
               <h3 className="font-bold text-sm text-cyan-400 flex items-center space-x-1.5 mb-1">
-                <FiSparkles />
+                <FiStar />
                 <span>3D Spatial Elements</span>
               </h3>
               <p className="text-gray-400 text-[11px]">
