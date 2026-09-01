@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/web_dev",
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH ?? "/video-editor",
 };
 
 export default nextConfig;
