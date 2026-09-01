@@ -71,6 +71,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   {
     id: 'proj_longform_3',
     title: 'Blooper Explicit',
+    subtitle: 'Use Headphones 🎧',
     client: 'TXnbStudios YouTube',
     category: 'longform',
     aspect: '16:9',

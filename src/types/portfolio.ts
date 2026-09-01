@@ -8,6 +8,7 @@ export type ProjectCategory =
 export interface PortfolioProject {
   id: string;
   title: string;
+  subtitle?: string;
   client: string;
   category: ProjectCategory;
   videoUrl: string;

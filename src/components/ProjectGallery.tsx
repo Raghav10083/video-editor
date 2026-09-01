@@ -186,9 +186,15 @@ export const ProjectGallery: React.FC = () => {
                       <span className="text-[11px] font-semibold tracking-wide block mb-1" style={{ color: config.accentPrimary }}>
                         {project.client} • {project.duration}
                       </span>
-                      <h3 className="text-lg font-extrabold text-white group-hover:text-cyan-300 transition-colors line-clamp-2 leading-snug mb-2">
+                      <h3 className="text-lg font-extrabold text-white group-hover:text-cyan-300 transition-colors line-clamp-1 leading-snug mb-1">
                         {project.title}
                       </h3>
+
+                      {project.subtitle && (
+                        <span className="text-[11px] font-bold text-amber-400 block mb-2 font-mono">
+                          {project.subtitle}
+                        </span>
+                      )}
 
                       {/* Software tags */}
                       <div className="flex flex-wrap gap-1">
@@ -255,9 +261,14 @@ export const ProjectGallery: React.FC = () => {
                     <span className="text-xs uppercase tracking-widest font-bold block mb-1" style={{ color: config.accentPrimary }}>
                       {activeModalProject.category.toUpperCase()} • {isLandscape ? '16:9 LANDSCAPE FORMAT' : '9:16 VERTICAL FORMAT'}
                     </span>
-                    <h3 className="text-2xl sm:text-3xl font-extrabold text-white mb-3">
+                    <h3 className="text-2xl sm:text-3xl font-extrabold text-white mb-1">
                       {activeModalProject.title}
                     </h3>
+                    {activeModalProject.subtitle && (
+                      <span className="text-sm font-bold text-amber-400 block mb-3 font-mono">
+                        {activeModalProject.subtitle}
+                      </span>
+                    )}
 
                     <p className="text-gray-300 text-xs sm:text-sm leading-relaxed mb-6 font-light">
                       {activeModalProject.description}
