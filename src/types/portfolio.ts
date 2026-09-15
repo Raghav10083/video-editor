@@ -1,5 +1,7 @@
 export type ProjectCategory = 
   | 'all' 
+  | 'ai'
+  | 'motion_graphics'
   | 'longform'
   | 'cinematic'
   | 'talking_head'

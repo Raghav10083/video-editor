@@ -27,6 +27,8 @@ export const ProjectGallery: React.FC = () => {
 
   const categories: { id: ProjectCategory; label: string }[] = [
     { id: 'all', label: 'All Projects' },
+    { id: 'ai', label: 'AI Videos 🤖' },
+    { id: 'motion_graphics', label: 'Motion Graphics 🎨' },
     { id: 'longform', label: 'Long-Form 16:9 Edits 📺' },
     { id: 'cinematic', label: 'Cinematic Edits 🎬' },
     { id: 'talking_head', label: 'Casual Talking Head 🎙️' },

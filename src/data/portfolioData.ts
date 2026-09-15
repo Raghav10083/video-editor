@@ -23,6 +23,73 @@ export const USER_SKILLS = [
 
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   {
+    id: 'proj_ai_1',
+    title: 'AI Video Edit #1',
+    client: 'AI Content Project',
+    category: 'ai',
+    aspect: '9:16',
+    videoUrl: 'https://drive.google.com/uc?export=download&id=1Vk1GyhRIV3BuWKZVCdcqGOYcuOz8uC6J',
+    drivePreviewUrl: 'https://drive.google.com/file/d/1Vk1GyhRIV3BuWKZVCdcqGOYcuOz8uC6J/preview',
+    duration: '00:45',
+    releaseYear: '2026',
+    software: ['Adobe Premiere Pro'],
+    metrics: {
+      views: '45K+',
+      retentionRate: '94%'
+    },
+    description: 'Creative AI video generation & editing with prompt structuring, visual transitions, and high retention pacing in Adobe Premiere Pro.',
+    keyHighlights: [
+      'AI visual prompt generation & synthesis',
+      'Pattern interrupt editing in Adobe Premiere Pro',
+      'High-impact sound FX drops'
+    ]
+  },
+  {
+    id: 'proj_motion_graphics_1',
+    title: 'Motion Graphics Edit #1',
+    client: 'Motion Graphics Project',
+    category: 'motion_graphics',
+    aspect: '9:16',
+    videoUrl: 'https://drive.google.com/uc?export=download&id=10mCclWkbaelgexWSfQSLK79T_ixhkfUx',
+    drivePreviewUrl: 'https://drive.google.com/file/d/10mCclWkbaelgexWSfQSLK79T_ixhkfUx/preview',
+    duration: '00:40',
+    releaseYear: '2026',
+    software: ['Adobe Premiere Pro'],
+    metrics: {
+      views: '60K+',
+      retentionRate: '95%'
+    },
+    description: 'Dynamic motion graphics reel with kinetic animation overlays, visual callouts, and clean transitions in Adobe Premiere Pro.',
+    keyHighlights: [
+      'Kinetic motion graphics & visual overlays',
+      'Frame-accurate transition timing in Adobe Premiere Pro',
+      'Audio sound FX syncing'
+    ]
+  },
+  {
+    id: 'proj_ugc_5',
+    title: 'UGC Creator Reel #5',
+    client: 'Brand Partner',
+    category: 'ugc',
+    aspect: '9:16',
+    videoUrl: 'https://drive.google.com/uc?export=download&id=1v0z40tc42tyg5s-QrV-EzPrLH6wTFono',
+    drivePreviewUrl: 'https://drive.google.com/file/d/1v0z40tc42tyg5s-QrV-EzPrLH6wTFono/preview',
+    youtubeUrl: 'https://www.youtube.com/@TXnbStudios',
+    duration: '00:50',
+    releaseYear: '2026',
+    software: ['Adobe Premiere Pro'],
+    metrics: {
+      views: '80K+',
+      retentionRate: '93%'
+    },
+    description: 'High-converting UGC creator reel featuring hook angle selection, fast-paced match-cut editing, and audio leveling in Adobe Premiere Pro.',
+    keyHighlights: [
+      'Hook angle selection & storytelling',
+      'Fast-paced match-cut editing in Adobe Premiere Pro',
+      'Custom sound FX accents'
+    ]
+  },
+  {
     id: 'proj_longform_1',
     title: 'Long-Form Script & Landscape Edit #1',
     client: 'TXnbStudios YouTube',
