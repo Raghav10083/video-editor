@@ -94,29 +94,6 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Rhythmic long-form editing & sound design in Adobe Premiere Pro'
     ]
   },
-  {
-    id: 'proj_longform_2',
-    title: 'Long-Form Script & Landscape Edit #2',
-    client: 'TXnbStudios YouTube',
-    category: 'longform',
-    aspect: '16:9',
-    videoUrl: 'https://drive.google.com/uc?export=download&id=1cOXOUWrLpisuEyO427p7t1ucXdWnSd1n',
-    drivePreviewUrl: 'https://drive.google.com/file/d/1cOXOUWrLpisuEyO427p7t1ucXdWnSd1n/preview',
-    youtubeUrl: 'https://www.youtube.com/@TXnbStudios',
-    duration: '14:20',
-    releaseYear: '2026',
-    software: ['Adobe Premiere Pro'],
-    metrics: {
-      views: '95K+',
-      retentionRate: '65% (Long-Form)'
-    },
-    description: '16:9 landscape video essay featuring custom concept storyboard, long-form scriptwriting, and multi-track audio mix in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Landscape 16:9 layout & storyboard planning',
-      'Long-form scriptwriting & voiceover pacing',
-      'Dynamic visual editing in Adobe Premiere Pro'
-    ]
-  },
 
   // 4. Cinematic Edits
   {
