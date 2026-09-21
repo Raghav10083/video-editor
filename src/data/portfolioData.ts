@@ -22,6 +22,7 @@ export const USER_SKILLS = [
 ];
 
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
+  // 1. AI Videos
   {
     id: 'proj_ai_1',
     title: 'AI Video Edit #1',
@@ -44,6 +45,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'High-impact sound FX drops'
     ]
   },
+
+  // 2. Motion Graphics
   {
     id: 'proj_motion_graphics_1',
     title: 'Motion Graphics Edit #1',
@@ -66,29 +69,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Audio sound FX syncing'
     ]
   },
-  {
-    id: 'proj_ugc_5',
-    title: 'UGC Creator Reel #5',
-    client: 'Brand Partner',
-    category: 'ugc',
-    aspect: '9:16',
-    videoUrl: 'https://drive.google.com/uc?export=download&id=1v0z40tc42tyg5s-QrV-EzPrLH6wTFono',
-    drivePreviewUrl: 'https://drive.google.com/file/d/1v0z40tc42tyg5s-QrV-EzPrLH6wTFono/preview',
-    youtubeUrl: 'https://www.youtube.com/@TXnbStudios',
-    duration: '00:50',
-    releaseYear: '2026',
-    software: ['Adobe Premiere Pro'],
-    metrics: {
-      views: '80K+',
-      retentionRate: '93%'
-    },
-    description: 'High-converting UGC creator reel featuring hook angle selection, fast-paced match-cut editing, and audio leveling in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Hook angle selection & storytelling',
-      'Fast-paced match-cut editing in Adobe Premiere Pro',
-      'Custom sound FX accents'
-    ]
-  },
+
+  // 3. Long-Form 16:9 Edits
   {
     id: 'proj_longform_1',
     title: 'Long-Form Script & Landscape Edit #1',
@@ -135,30 +117,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Dynamic visual editing in Adobe Premiere Pro'
     ]
   },
-  {
-    id: 'proj_longform_3',
-    title: 'Blooper Explicit',
-    subtitle: 'Use Headphones 🎧',
-    client: 'TXnbStudios YouTube',
-    category: 'longform',
-    aspect: '16:9',
-    videoUrl: 'https://drive.google.com/uc?export=download&id=1t69ye0Jb8gJR0kDUa1iN5F1aiP73Z0B7',
-    drivePreviewUrl: 'https://drive.google.com/file/d/1t69ye0Jb8gJR0kDUa1iN5F1aiP73Z0B7/preview',
-    youtubeUrl: 'https://www.youtube.com/@TXnbStudios',
-    duration: '12:15',
-    releaseYear: '2026',
-    software: ['Adobe Premiere Pro'],
-    metrics: {
-      views: '110K+',
-      retentionRate: '66% (Long-Form)'
-    },
-    description: '16:9 landscape Blooper Explicit cut featuring behind-the-scenes outtakes, unedited moments, and fast-paced comedic editing in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Blooper & behind-the-scenes outtakes compilation',
-      'Comedic timing & audio sound FX drops in Adobe Premiere Pro',
-      'High retention 16:9 narrative cut'
-    ]
-  },
+
+  // 4. Cinematic Edits
   {
     id: 'proj_cinematic_1',
     title: 'Cinematic Edit #1',
@@ -228,6 +188,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'High-impact video editing transitions'
     ]
   },
+
+  // 5. Casual Talking Head
   {
     id: 'proj_talking_head_1',
     title: 'Casual Talking Head #1',
@@ -274,6 +236,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Background audio noise reduction'
     ]
   },
+
+  // 6. UGC & Creator Edits
   {
     id: 'proj_ugc_1',
     title: 'UGC Creator Reel #1',
@@ -364,6 +328,29 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Ad hook copywriting & pacing',
       'Pattern interrupt video editing in Adobe Premiere Pro',
       'Riser sound effects'
+    ]
+  },
+  {
+    id: 'proj_ugc_5',
+    title: 'UGC Creator Reel #5',
+    client: 'Brand Partner',
+    category: 'ugc',
+    aspect: '9:16',
+    videoUrl: 'https://drive.google.com/uc?export=download&id=1v0z40tc42tyg5s-QrV-EzPrLH6wTFono',
+    drivePreviewUrl: 'https://drive.google.com/file/d/1v0z40tc42tyg5s-QrV-EzPrLH6wTFono/preview',
+    youtubeUrl: 'https://www.youtube.com/@TXnbStudios',
+    duration: '00:50',
+    releaseYear: '2026',
+    software: ['Adobe Premiere Pro'],
+    metrics: {
+      views: '80K+',
+      retentionRate: '93%'
+    },
+    description: 'High-converting UGC creator reel featuring hook angle selection, fast-paced match-cut editing, and audio leveling in Adobe Premiere Pro.',
+    keyHighlights: [
+      'Hook angle selection & storytelling',
+      'Fast-paced match-cut editing in Adobe Premiere Pro',
+      'Custom sound FX accents'
     ]
   }
 ];
