@@ -329,6 +329,29 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Fast-paced match-cut editing in Adobe Premiere Pro',
       'Custom sound FX accents'
     ]
+  },
+  {
+    id: 'proj_ugc_6',
+    title: 'UGC Creator Reel #6',
+    client: 'Brand Partner',
+    category: 'ugc',
+    aspect: '9:16',
+    videoUrl: 'https://drive.google.com/uc?export=download&id=1YDx1605w0UGyB4OJLPCkZUpABPsPCbG5',
+    drivePreviewUrl: 'https://drive.google.com/file/d/1YDx1605w0UGyB4OJLPCkZUpABPsPCbG5/preview',
+    youtubeUrl: 'https://www.youtube.com/@TXnbStudios',
+    duration: '00:45',
+    releaseYear: '2026',
+    software: ['Adobe Premiere Pro'],
+    metrics: {
+      views: '55K+',
+      retentionRate: '92%'
+    },
+    description: 'Dynamic vertical UGC reel featuring engaging hook pacing, seamless cut transitions, and sound design in Adobe Premiere Pro.',
+    keyHighlights: [
+      'Hook pacing & audience retention optimization',
+      'Seamless cut transitions in Adobe Premiere Pro',
+      'Multi-track audio leveling and sound design'
+    ]
   }
 ];
 
