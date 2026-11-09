@@ -29,12 +29,8 @@ const FOOD_SCIENTIST_VIDEOS: FoodScientistVideo[] = [
     drivePreviewUrl: 'https://drive.google.com/file/d/1mjaj4852OR1ZbkkIH4y_MEqiKHjq1Irz/preview',
     driveViewUrl: 'https://drive.google.com/file/d/1mjaj4852OR1ZbkkIH4y_MEqiKHjq1Irz/view?usp=drive_link',
     duration: '00:48',
-    description: 'High-retention 9:16 portrait food science edit structured with hook strategy and Adobe Premiere Pro video editing.',
-    highlights: [
-      'Hook strategy & opening visual alignment',
-      'Visual pacing & food science content flow',
-      'Rhythmic video editing in Adobe Premiere Pro'
-    ]
+    description: 'Food science breakdown video in 9:16 vertical format.',
+    highlights: []
   },
   {
     id: 'food_2',
@@ -42,12 +38,8 @@ const FOOD_SCIENTIST_VIDEOS: FoodScientistVideo[] = [
     drivePreviewUrl: 'https://drive.google.com/file/d/1CWwjfeumw_zQq2RyrgOKvFGtNMf1F9ej/preview',
     driveViewUrl: 'https://drive.google.com/file/d/1CWwjfeumw_zQq2RyrgOKvFGtNMf1F9ej/view?usp=drive_link',
     duration: '00:52',
-    description: 'Engaging vertical food science reel featuring custom masking techniques, visual flow, and audio leveling in Adobe Premiere Pro.',
-    highlights: [
-      'Masking techniques & seamless overlays',
-      'Visual flow & composition in Adobe Premiere Pro',
-      'Audio mixing & sound design'
-    ]
+    description: 'Vertical food science demonstration video in 9:16 vertical format.',
+    highlights: []
   },
   {
     id: 'food_3',
@@ -55,12 +47,8 @@ const FOOD_SCIENTIST_VIDEOS: FoodScientistVideo[] = [
     drivePreviewUrl: 'https://drive.google.com/file/d/1CV3F7Rj27IvkChRxho_2zmlWVmOYqN9o/preview',
     driveViewUrl: 'https://drive.google.com/file/d/1CV3F7Rj27IvkChRxho_2zmlWVmOYqN9o/view?usp=drive_link',
     duration: '00:42',
-    description: 'Conversational 9:16 portrait edit crafted for viral retention, pattern interrupts, and sound FX drops in Adobe Premiere Pro.',
-    highlights: [
-      'Content strategy & audience drop-off prevention',
-      'Pattern interrupt editing in Adobe Premiere Pro',
-      'Sound FX accent drops'
-    ]
+    description: 'Conversational food science discussion video in 9:16 vertical format.',
+    highlights: []
   }
 ];
 
@@ -201,21 +189,23 @@ export const FoodScientistSection: React.FC = () => {
                   </p>
 
                   {/* Highlights */}
-                  <div className="mb-6">
-                    <h4 className="text-xs font-bold uppercase tracking-wider mb-2.5 flex items-center space-x-1.5"
-                        style={{ color: config.accentPrimary }}>
-                      <FiCpu />
-                      <span>Strategy & Edit Highlights</span>
-                    </h4>
-                    <ul className="space-y-2">
-                      {activeModalVideo.highlights.map((hl, i) => (
-                        <li key={i} className="text-gray-300 text-xs flex items-start space-x-2">
-                          <span style={{ color: config.accentPrimary }} className="mt-0.5">✓</span>
-                          <span>{hl}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+                  {activeModalVideo.highlights && activeModalVideo.highlights.length > 0 && (
+                    <div className="mb-6">
+                      <h4 className="text-xs font-bold uppercase tracking-wider mb-2.5 flex items-center space-x-1.5"
+                          style={{ color: config.accentPrimary }}>
+                        <FiCpu />
+                        <span>Highlights</span>
+                      </h4>
+                      <ul className="space-y-2">
+                        {activeModalVideo.highlights.map((hl, i) => (
+                          <li key={i} className="text-gray-300 text-xs flex items-start space-x-2">
+                            <span style={{ color: config.accentPrimary }} className="mt-0.5">✓</span>
+                            <span>{hl}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
 
                 {/* Action Links */}

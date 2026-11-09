@@ -38,12 +38,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '45K+',
       retentionRate: '94%'
     },
-    description: 'Creative AI video generation & editing with prompt structuring, visual transitions, and high retention pacing in Adobe Premiere Pro.',
-    keyHighlights: [
-      'AI visual prompt generation & synthesis',
-      'Pattern interrupt editing in Adobe Premiere Pro',
-      'High-impact sound FX drops'
-    ]
+    description: 'Creative AI concept video in 9:16 vertical format.',
+    keyHighlights: []
   },
 
   // 2. Motion Graphics
@@ -62,12 +58,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '60K+',
       retentionRate: '95%'
     },
-    description: 'Dynamic motion graphics reel with kinetic animation overlays, visual callouts, and clean transitions in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Kinetic motion graphics & visual overlays',
-      'Frame-accurate transition timing in Adobe Premiere Pro',
-      'Audio sound FX syncing'
-    ]
+    description: 'Dynamic motion graphics showcase in 9:16 vertical format.',
+    keyHighlights: []
   },
 
   // 3. Long-Form 16:9 Edits
@@ -87,12 +79,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '150K+',
       retentionRate: '68% (Long-Form)'
     },
-    description: '16:9 landscape long-form documentary episode featuring full concept research, scriptwriting, storytelling structure, and retention editing in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Long-form scriptwriting & 16:9 story structure',
-      'Chapter-based narrative concept planning',
-      'Rhythmic long-form editing & sound design in Adobe Premiere Pro'
-    ]
+    description: '16:9 landscape documentary episode produced for TXnbStudios YouTube.',
+    keyHighlights: []
   },
 
   // 4. Cinematic Edits
@@ -112,12 +100,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '28.4M',
       retentionRate: '96%'
     },
-    description: 'High-impact 9:16 vertical cinematic edit structured with hook strategy, scriptwriting structure, and rhythmic pacing in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Content strategy & opening visual hook alignment',
-      'Frame-accurate rhythmic cutting to audio beats in Adobe Premiere Pro',
-      'Multi-layer sound design and atmosphere building'
-    ]
+    description: 'Cinematic visual project in 9:16 vertical format.',
+    keyHighlights: []
   },
   {
     id: 'proj_cinematic_2',
@@ -135,12 +119,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '16.8M',
       retentionRate: '93%'
     },
-    description: 'Atmospheric vertical cinematic video edit with cinematic scriptwriting flow in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Narrative scriptwriting flow & structure',
-      'Pacing optimization to prevent viewer drop-off in Adobe Premiere Pro',
-      'Sound FX accent design'
-    ]
+    description: 'Atmospheric cinematic video project in 9:16 vertical format.',
+    keyHighlights: []
   },
   {
     id: 'proj_cinematic_3',
@@ -158,12 +138,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '21.2M',
       retentionRate: '95%'
     },
-    description: 'High-octane portrait edit engineered for high viral retention and visual flow in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Strategic hook placement in the first 2 seconds',
-      'Speed ramping on key movements in Adobe Premiere Pro',
-      'High-impact video editing transitions'
-    ]
+    description: 'High-energy portrait visual reel in 9:16 vertical format.',
+    keyHighlights: []
   },
 
   // 5. Casual Talking Head
@@ -183,12 +159,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '11.5M',
       retentionRate: '92%'
     },
-    description: 'Conversational talking head edit with pause removal and subtle zooms in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Content structure & dialogue alignment',
-      'Jump-cut editing removing filler words & pauses in Adobe Premiere Pro',
-      'Visual pacing and audio leveling'
-    ]
+    description: 'Conversational podcast talking head episode in 9:16 vertical format.',
+    keyHighlights: []
   },
   {
     id: 'proj_talking_head_2',
@@ -206,12 +178,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '9.3M',
       retentionRate: '90%'
     },
-    description: 'Engaging talking head edit designed with strategic camera zoom framing for emphasis in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Content strategy mapping for viewer interest',
-      'Dynamic zoom framing in Adobe Premiere Pro',
-      'Background audio noise reduction'
-    ]
+    description: 'Founder Q&A discussion video in 9:16 vertical format.',
+    keyHighlights: []
   },
 
   // 6. UGC & Creator Edits
@@ -231,12 +199,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '18.5M',
       retentionRate: '94%'
     },
-    description: 'High-converting UGC reel with opening hook copywriting and rapid match-cuts in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Hook angle selection & storytelling',
-      'Fast-paced match-cut editing in Adobe Premiere Pro',
-      'Custom Foley sound effects'
-    ]
+    description: 'Creator UGC video reel in 9:16 vertical format.',
+    keyHighlights: []
   },
   {
     id: 'proj_ugc_2',
@@ -254,12 +218,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '12.1M',
       retentionRate: '91%'
     },
-    description: 'Problem & solution UGC storytelling edit with split-screen structure in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Problem/solution content structure',
-      'Split-screen video editing in Adobe Premiere Pro',
-      'Voiceover audio equalization'
-    ]
+    description: 'Problem and solution creator video in 9:16 vertical format.',
+    keyHighlights: []
   },
   {
     id: 'proj_ugc_3',
@@ -277,12 +237,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '9.8M',
       retentionRate: '89%'
     },
-    description: 'Clean aesthetic UGC promo with soft sound design and vertical 9:16 formatting in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Visual content strategy for social feeds',
-      'Whip transition editing in Adobe Premiere Pro',
-      'Ambient sound design'
-    ]
+    description: 'Brand promotional creator reel in 9:16 vertical format.',
+    keyHighlights: []
   },
   {
     id: 'proj_ugc_4',
@@ -300,12 +256,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '14.3M',
       retentionRate: '93%'
     },
-    description: 'Fast-paced social ad edit crafted for high click-through rates in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Ad hook copywriting & pacing',
-      'Pattern interrupt video editing in Adobe Premiere Pro',
-      'Riser sound effects'
-    ]
+    description: 'Short-form social media ad reel in 9:16 vertical format.',
+    keyHighlights: []
   },
   {
     id: 'proj_ugc_5',
@@ -323,12 +275,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '80K+',
       retentionRate: '93%'
     },
-    description: 'High-converting UGC creator reel featuring hook angle selection, fast-paced match-cut editing, and audio leveling in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Hook angle selection & storytelling',
-      'Fast-paced match-cut editing in Adobe Premiere Pro',
-      'Custom sound FX accents'
-    ]
+    description: 'Brand partner collaboration creator reel in 9:16 vertical format.',
+    keyHighlights: []
   },
   {
     id: 'proj_ugc_6',
@@ -346,12 +294,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       views: '55K+',
       retentionRate: '92%'
     },
-    description: 'Dynamic vertical UGC reel featuring engaging hook pacing, seamless cut transitions, and sound design in Adobe Premiere Pro.',
-    keyHighlights: [
-      'Hook pacing & audience retention optimization',
-      'Seamless cut transitions in Adobe Premiere Pro',
-      'Multi-track audio leveling and sound design'
-    ]
+    description: 'Vertical creator video for social brand campaign in 9:16 format.',
+    keyHighlights: []
   }
 ];
 

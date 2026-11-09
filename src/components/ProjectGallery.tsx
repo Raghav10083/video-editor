@@ -277,21 +277,23 @@ export const ProjectGallery: React.FC = () => {
                     </p>
 
                     {/* Highlights */}
-                    <div className="mb-6">
-                      <h4 className="text-xs font-bold uppercase tracking-wider mb-2.5 flex items-center space-x-1.5"
-                          style={{ color: config.accentPrimary }}>
-                        <FiCpu />
-                        <span>Script, Strategy & Edit Highlights</span>
-                      </h4>
-                      <ul className="space-y-2">
-                        {activeModalProject.keyHighlights.map((hl, i) => (
-                          <li key={i} className="text-gray-300 text-xs flex items-start space-x-2">
-                            <span style={{ color: config.accentPrimary }} className="mt-0.5">✓</span>
-                            <span>{hl}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+                    {activeModalProject.keyHighlights && activeModalProject.keyHighlights.length > 0 && (
+                      <div className="mb-6">
+                        <h4 className="text-xs font-bold uppercase tracking-wider mb-2.5 flex items-center space-x-1.5"
+                            style={{ color: config.accentPrimary }}>
+                          <FiCpu />
+                          <span>Highlights</span>
+                        </h4>
+                        <ul className="space-y-2">
+                          {activeModalProject.keyHighlights.map((hl, i) => (
+                            <li key={i} className="text-gray-300 text-xs flex items-start space-x-2">
+                              <span style={{ color: config.accentPrimary }} className="mt-0.5">✓</span>
+                              <span>{hl}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                   </div>
 
                   {/* External Links */}
